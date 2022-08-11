@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.main {
+  margin-top: 0;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+
+.heading-conatiner {
+  width: 100%;
+  background-color: #6943ff;
+  color: white;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 45px;
+}
+
+.content-head {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px 50px 50px;
+}
+
+#input-el {
+  font-size: 75px;
+  font-weight: 800;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  background-color: #6943ff;
+  border: 2px solid white;
+  color: white;
+  margin: 0 0;
+}
+
+button {
+  margin-top: 30px;
+  width: 208px;
+  height: 75px;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 10px;
+  background-color: white;
+  border: 2px solid white;
+}
+
+button:hover {
+  background-color: #6943ff;
+  color: white;
+}
+
+.measurement-container {
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.measurement-head {
+  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.length-container,
+.volume-container,
+.mass-container {
+  width: 100%;
+  background-color: #ffffff;
+  margin: 10px 0;
+  padding: 15px 0;
+}
+
+.measurement-head h3 {
+  font-size: 25px;
+  margin-bottom: 0;
+}
+
+.measurement-head p {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 1407px) {
+  .content-head,
+  .measurement-head {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1004px) {
+  .content-head,
+  .measurement-head {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 879px) {
+  .content-head,
+  .measurement-head {
+    width: 100%;
+    margin: 30px 0;
+    padding: 0;
+  }
+  h1 {
+    font-size: 35px;
+  }
+}
