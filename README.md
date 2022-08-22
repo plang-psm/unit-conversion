@@ -43,7 +43,7 @@ The Unit Converter was created as a training exercise to practice DOM manipulati
   - [ ] Make the conversions fully functional
 
 ## Launch
-You can display the project and its code here:
+You can open the project here:
 [Unit Converter](https://plang-psm.github.io/unit-conversion/)
 
 
