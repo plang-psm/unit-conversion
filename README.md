@@ -23,7 +23,7 @@
 ![unit converter](https://user-images.githubusercontent.com/101952500/185811245-557afdc6-f90b-4494-a2b5-20211e116512.jpg)
 
 ## Description
-The Unit Converter was created as a training exercise to practice DOM manipulation and implement functionality using JavaScript. It has expanded to potentially providing other units such as area, weight, temperature and more. This is currently in development.
+The Unit Converter was created as a training exercise to practice DOM manipulation and implement functionality using JavaScript. It has expanded to potentially providing other measuring units such as area, weight, temperature and more. This is currently in development.
 
 ## How to use
 * Enter a number in the input
@@ -40,7 +40,7 @@ The Unit Converter was created as a training exercise to practice DOM manipulati
 - [X] CSS Styling
     - [X] Responsive design
 - [X] JavaScript
-  - [ ] Make the conversions full functional
+  - [ ] Make the conversions fully functional
 
 ## Launch
 You can display the project and its code here:
